@@ -35,6 +35,8 @@ public class Main {
         //Declarative approach
         System.out.println("Declarative approach");
         
+        
+        
         List<Person> females1 = people.stream()
         		.filter(person -> Gender.FEMALE.equals(person.gender))
         		.collect(Collectors.toList());
